@@ -10,7 +10,7 @@ namespace MyNamespace
     {
         public override void Configure(IFunctionsHostBuilder builder)
         {
-            builder.Services.AddApplicationInsightsTelemetry();            
+            //builder.Services.AddApplicationInsightsTelemetry();            
         }
     }
 }
